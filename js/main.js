@@ -22,3 +22,6 @@ menuItems.addEventListener("click", () => {
     links.classList.toggle("fade");
   });
 });
+
+
+
