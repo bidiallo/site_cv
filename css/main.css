@@ -45,7 +45,6 @@ body {
 
 .navbar ul li a {
   color: black;
-  margin: 2px 2px 2px 2px;
   text-decoration: none;
 }
 
@@ -118,6 +117,7 @@ section {
 .content1 span{
   font-weight: bold;
 }
+
 button {
   font-style: normal;
   font-weight: normal;
@@ -236,8 +236,8 @@ button {
 }
 
 .competences img {
-  width: 75px;
-  height: 75px;
+  width: 65px;
+  height: 65px;
 }
 
 .cont {
