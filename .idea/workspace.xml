@@ -3,18 +3,23 @@
   <component name="ChangeListManager">
     <list default="true" id="765d8474-ff97-44e0-93d5-01f8c5232cf2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/creative.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/browserconfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/competences.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cv.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/exp.html" beforeDir="false" afterPath="$PROJECT_DIR$/exp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/exp.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/humans.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ampoule.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/child.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dis1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/dis2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/diss.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/hand.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/img_test.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/snake1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/snake2.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/app_bis.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/portfolio.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tile-wide.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site.webmanifest" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,7 +83,7 @@
       <workItem from="1573637355819" duration="688000" />
       <workItem from="1574097768718" duration="4268000" />
       <workItem from="1574238180441" duration="23714000" />
-      <workItem from="1574297788218" duration="8155000" />
+      <workItem from="1574297788218" duration="12279000" />
     </task>
     <servers />
   </component>

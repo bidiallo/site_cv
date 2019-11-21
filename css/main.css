@@ -13,6 +13,11 @@ body {
 }
 
 
+/*********************************************************/
+/*****************         NAVBAR         *****************/
+/*****************                       *****************/
+/*********************************************************/
+
 .navbar {
   width: 100%;
   padding: 20px;
@@ -44,11 +49,15 @@ body {
   text-decoration: none;
 }
 
-
+.navbar-brand img {
+  width: 75px;
+  height: 75px;
+  border-radius: 5px;
+}
 
 
 /*********************************************************/
-/*****************                       *****************/
+/*****************      SECTION 1        *****************/
 /*****************                       *****************/
 /*********************************************************/
 section {
@@ -56,7 +65,9 @@ section {
   height: 80vh;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
+  padding-top: 150px;
+  background-image: linear-gradient(to right, #5c6bc0, #9fa8da);
+  border-radius: 2px;
 }
 
 .hero {
@@ -95,16 +106,18 @@ section {
   top: 0;
 }
 
-.competences img {
-  width: 75px;
-  height: 75px;
+
+.content1{
+  background-image: linear-gradient(to right, #5c6bc0, #9fa8da);
+  text-align: center;
+  padding-bottom: 25px;
+  border-radius: 2px;
+  color: white;
 }
 
-footer {
-  background-color: #000000;
-  color: #FFFFFF;
+.content1 span{
+  font-weight: bold;
 }
-
 button {
   font-style: normal;
   font-weight: normal;
@@ -120,20 +133,17 @@ button {
   transition: color 0.4s ease 0s;
 }
 
-/*********************************************************/
-/*****************    Effect      *****************/
-/*****************                       *****************/
-/*********************************************************/
-
 .effect-cv {
   display: flex;
   justify-content: space-around;
-  height: 100vh;
+  margin: 100px;
 }
 
 .distortion {
-
   align-self: flex-end;
+  border: 1px black;
+  max-width: 100%;
+  height: auto;
 }
 
 .img-intro {
@@ -148,13 +158,12 @@ button {
   font-size: 25px;
 }
 
+
 /*********************************************************/
-/*****************    Media Queries      *****************/
+/*****************    Galerie section      *****************/
 /*****************                       *****************/
 /*********************************************************/
 
-
-/* Gallery Section */
 
 .rea {
   padding: 75px 0;
@@ -162,7 +171,7 @@ button {
   width: 1140px;
 }
 
-.rea h1 {
+.rea h2 {
   position: relative;
   margin-bottom: 45px;
   font-family: 'Oswald', sans-serif;
@@ -212,7 +221,25 @@ button {
   background-image: url("../img/IMG_0257.jpg");
 }
 
-/*  SKILLS  */
+/*********************************************************/
+/*****************    Compétences      *****************/
+/*****************                       *****************/
+/*********************************************************/
+
+.competences h2 {
+  position: relative;
+  margin-bottom: 45px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 44px;
+  text-transform: uppercase;
+  color: #424242;
+}
+
+.competences img {
+  width: 75px;
+  height: 75px;
+}
+
 .cont {
   width: 100%;
   background-color: #ddd;
@@ -262,5 +289,157 @@ button {
 @keyframes animate {
   from {
     width: 0%;
+  }
+}
+/*********************************************************/
+/*****************   Expériences professionnelles********/
+/*****************                       *****************/
+/*********************************************************/
+
+.section_exp{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 100%;
+  margin-top: 150px;
+  padding-bottom: 20px;
+  margin: 20px auto;
+  box-shadow: 0px 0px 10px #bbb;
+  background-color: #fff;
+}
+
+.section_exp h2{
+  margin: 20px 0;
+  width: 90%;
+}
+
+.section_exp > div{
+  width: 90%;
+}
+
+.exp{
+  display: flex;
+  flex-flow: row wrap;
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.exp-info{
+  display: flex;
+  flex-flow: column wrap;
+}
+.exp-logo{
+  flex: 0 0 25%;
+  max-width: 100px;
+}
+.exp-info{
+  flex: 0 0 70%;
+  margin-left: auto;
+}
+.exp img{
+  width: 100%;
+}
+.exp h3{
+  font-size:  1.2em;
+}
+.exp h4{
+  font-size:  1em;
+  font-weight: normal;
+}
+
+/*********************************************************/
+/*****************   FOOTER                       ********/
+/*****************                       *****************/
+/*********************************************************/
+
+
+.footer-basic-centered{
+  background-color: #000000;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  font: normal 18px sans-serif;
+
+  padding: 45px;
+  margin-top: 80px;
+}
+
+.footer-basic-centered .footer-company-motto{
+  color:  #ffffff;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 35px;
+}
+
+.footer-basic-centered .footer-company-name{
+  color:  #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+
+.footer-basic-centered .footer-links{
+  list-style: none;
+  font-weight: bold;
+  color:  #ffffff;
+  padding: 35px 0 23px;
+  margin: 0;
+}
+
+.footer-basic-centered .footer-links a{
+  display:inline-block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.social-media{
+  color:white;
+  margin-top: 25px;
+}
+
+.social-media i{
+  margin-right: 25px;
+}
+
+
+.download {
+  text-decoration: none;
+  color: #FF0067;
+  background-color: white;
+  border: 4px solid #FF0067;
+  margin-top: 10px;
+  padding: 10px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+.download:hover {
+  background-color: #FF0067;
+  color: white;
+}
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 600px) {
+
+  .footer-basic-centered{
+    padding: 35px;
+  }
+
+  .footer-basic-centered .footer-company-motto{
+    font-size: 18px;
+  }
+
+  .footer-basic-centered .footer-company-name{
+    font-size: 12px;
+  }
+
+  .footer-basic-centered .footer-links{
+    font-size: 14px;
+    padding: 25px 0 20px;
+  }
+
+  .footer-basic-centered .footer-links a{
+    line-height: 1.8;
   }
 }
