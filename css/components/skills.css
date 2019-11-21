@@ -1,0 +1,85 @@
+/*********************************************************/
+/*****************    Compétences      *****************/
+/*****************                       *****************/
+/*********************************************************/
+
+.competences h2 {
+  position: relative;
+  margin-bottom: 45px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 44px;
+  text-transform: uppercase;
+  color: #424242;
+}
+
+.competences img {
+  width: 65px;
+  height: 65px;
+}
+
+.content{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.cont {
+  width: 100%;
+  background-color: #ddd;
+  border-radius: 15px;
+}
+
+.skills1{
+  float: left;
+  width: 50%;
+}
+
+.skills2{
+  float: left;
+  width: 50%;
+}
+
+.skills {
+  border-radius: 15px;
+  text-align: right;
+  padding: 10px;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+
+.php {
+  width: 65%;
+  background-color: #12CBC4;
+  animation: animate 3s 1;
+}
+
+.sql {
+  width: 60%;
+  background-color: #FDA7DF;
+  animation: animate 3s 1;
+}
+
+.skill_html_css {
+  width: 80%;
+  background-color: #ED4C67;
+  animation: animate 3s 1;
+}
+
+.skill_js {
+  width: 45%;
+  background-color: #009432;
+  animation: animate 3s 1;
+}
+
+.git {
+  width: 68%;
+  background-color: #F79F1F;
+  animation: animate 3s 1;
+}
+
+
+@keyframes animate {
+  from {
+    width: 0%;
+  }
+}
