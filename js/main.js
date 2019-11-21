@@ -25,3 +25,11 @@ menuItems.addEventListener("click", () => {
 
 
 
+var  nav = document.getElementById('nav');
+
+window.onscroll = function(){
+    nav.style.background = "transparent";
+}
+
+
+

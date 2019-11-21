@@ -6,9 +6,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
@@ -18,68 +15,21 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Alata&display=swap" rel="stylesheet">
 
   <title>Bineta DIALLO</title>
 </head>
 
 <body>
 
-<!--  Head du site --><!--
-<div class="jumbotron">
-  <h1 class="display-4">My beautiful & unparalleled website.</h1>
-  <p class="lead">This website allows me to show my various projects...</p>
-  <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <a class="btn btn-primary btn-lg" href="#" role="button">Get ...</a>
-  <a class="btn btn-primary btn-lg" href="#" role="button">Demos projects</a>
-</div>-->
 
-
-<!-- Navbar --><!--
 <header>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html"><i class="fal fa-home"></i>Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="competences.html">Compétences</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="exp.html">Expériences</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="creative.html">Creative</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="cv.html" tabindex="-1" aria-disabled="true">Download CV</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-</header>
--->
-<header>
-  <nav>
-    <h3 id="logo">Curriculum Bineta</h3>
-    <!--<img class="menu" src="./img/menu.svg" alt="menu">-->
-    <div class="menu-items">
-      <div class="line"></div>
-      <div class="line"></div>
-      <div class="line"></div>
-    </div>
-    <ul class="nav-links">
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">Projects</a></li>
+  <nav class="navbar" id="nav">
+    <a id="logo" class="navbar-brand" href=""><img src="img/logo2_ajust.png" style="width: 75px; height: 75px; border-radius: 5px;"></a>
+    <ul>
+      <li><a href="#link1">Compétences</a></li>
+      <li><a href="#link2">Expériences</a></li>
+      <li><a href="#link3">Réalisations</a></li>
     </ul>
   </nav>
 </header>
@@ -91,48 +41,107 @@
   </div>
 </section>
 
-<div class="slider"></div>
-
-<div class="summary"></div>
-
 <div class="content">
-  <p>Mon parcours est atypique ! Après avoir obtenu un bac ES, je voulais m'orienter vers l'informatique et les nouvelles technologies car en me renseignant j'ai constaté que ce secteur était en plein essor.</p>
-  <p>Ce domaine était en manque de femmes donc c'était l'occasion de m'insérer dans le secteur du web. </p>
-  <p>J'ai l'ambition de créer un site internet pour n'importe quelle personne cherchant des informations sur la mode, des astuces beautés, des restaurants et autres bons plans.</p>
+  <p>Mon parcours est <span style="font-weight: bold;">atypique</span> ! Après avoir obtenu un bac ES, je voulais m'orienter vers l'informatique et les <span style="font-weight: bold;">nouvelles technologies</span> car en me renseignant j'ai constaté que ce secteur était en <span>plein essor.</span></p>
+  <p>Maintenant, je fais un <span style="font-weight: bold;">Mastère en Digital marketing & Data Analytics</span> qui est un double diplôme à l'EMLV au <span style="font-weight: bold;">Pôle Léonard de Vinci.</span></p>
+  <p>Ce domaine était en manque de femmes donc c'était l'occasion de m'insérer dans le <span style="font-weight: bold;">secteur du web.</span></p>
+  <p>J'ai <span style="font-weight: bold;">l'ambition</span> de créer un site internet pour n'importe quelle personne cherchant des informations sur la mode, des astuces beautés, des restaurants et autres bons plans.</p>
   <p></p>
   <p></p>
 </div>
 
 <div class="effect-cv">
   <div class="img-intro">
-    <h2>Second project</h2>
+    <h2>L'un de mes derniers projets</h2>
     <p>Site culinaire spécialisé dans les recettes de pâtes dans l'objectif que
       les étudiants de l'IUT de Montreuil puisse varier leur repas...</p>
   </div>
   <div class="distortion">
-
+    <img src="" alt="">
   </div>
 </div>
-
-<div class="effect-cv">
-  <div class="distortion">
-
-  </div>
-  <div class="img-intro">
-    <h2>Second project</h2>
-    <p>Site culinaire spécialisé dans les recettes de pâtes dans l'objectif que
-      les étudiants de l'IUT de Montreuil puisse varier leur repas...</p>
-  </div>
-</div>
-  <!-- Mini Caroussel https://mdbootstrap.com/docs/jquery/javascript/carousel/ -->
 
 
   <!-- Compétences : Pourcentage -->
-</main>
+<div class="content">
+  <div class="competences" id="link1">
+    <h2>SKILLS</h2>
+    <div class="container">
+      <div class="skills1">
+        <div><img src="img/php.png" alt="Image logo PHP"></div>
+        <div class="cont">
+          <div class="skills php">65%</div>
+        </div>
 
-<!-- Footer-->
+        <div><img src="img/sql.png" alt="Image logo PhpMyAdmin"></div>
+        <div class="cont">
+          <div class="skills sql">60%</div>
+        </div>
+
+        <div><img src="img/css.png" alt="Image logo CSS"></div>
+        <div class="cont">
+          <div class="skills skill_html_css">80%</div>
+        </div>
+      </div>
+      <div class="skills2">
+        <div><img src="img/javascript.png" alt="Image logo Javascript"></div>
+        <div class="cont">
+          <div class="skills skill_js">45%</div>
+        </div>
+        <div class="cont">
+          <div class="skills git">68%</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Expériences professionnelles" id="link2">
+    <p></p>
+  </div>
+
+  <div class="rea" id="link3">
+    <h1>Réalisations</h1>
+    <div class="gallery-wrap">
+      <div class="item item-1"></div>
+      <div class="item item-2"></div>
+      <div class="item item-3"></div>
+      <div class="item item-4"></div>
+      <div class="item item-5"></div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Footer -->
 <footer>
-
+  <div class="footer_title">
+    <h2>CONTACT</h2>
+  </div>
+  <div class="social-media">
+    <i class="fab fa-facebook-f"></i>
+    <i class="fab fa-linkedin-in"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-snapchat-ghost"></i>
+  </div>
+  <div class="right-side"></div>
+  <div class="left-side">
+    <form>
+      <div>
+        <input class="text" placeholder="Nom" maxlength="100">
+      </div>
+      <div>
+        <input class="email" placeholder="Email" maxlength="250">
+      </div>
+      <div>
+        <textarea placeholder="Ecrivez votre message ici ..."></textarea>
+      </div>
+      <div>
+        <button>
+          <span>Envoyer</span>
+        </button>
+      </div>
+    </form>
+  </div>
 </footer>
 
 <!-- Optional JavaScript -->
@@ -164,7 +173,6 @@
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
 <script src="js/hover.js"></script>
-<script src="js/app_bis.js"></script>
 
 </body>
 
