@@ -1,9 +1,8 @@
-@import "components/nav.css";
-@import "components/footer.css";
-@import "components/exp.css";
-@import "components/rea.css";
-@import "components/skills.css";
-
+@import url(components/nav.css);
+@import url(components/skills.css);
+@import url(components/exp.css);
+@import url(components/rea.css);
+@import url(components/footer.css);
 
 body {
   background: rgb(255, 255, 255);
@@ -17,9 +16,6 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
-
-
-
 
 /*********************************************************/
 /*****************      SECTION 1        *****************/
